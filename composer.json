@@ -1,0 +1,19 @@
+{
+    "name": "parth/demo",
+    "description": "this is save contact details into database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "parth",
+            "email": "parth.sarkheliya18@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "Parth\\Contact\\": "src/"
+        }
+    }
+}
